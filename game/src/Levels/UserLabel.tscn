@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/Xerox_Serif_dynamicfon_Title.tres" type="DynamicFont" id=1]
+[ext_resource path="res://src/Levels/UserLabel.gd" type="Script" id=2]
+
+[node name="UserLabel" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="LabelUser" type="Label" parent="."]
+margin_left = 1466.27
+margin_top = 37.4142
+margin_right = 1577.27
+margin_bottom = 93.4142
+custom_fonts/font = ExtResource( 1 )
+text = "KASUTAJA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
